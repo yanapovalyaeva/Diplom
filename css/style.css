@@ -1,0 +1,662 @@
+@font-face {
+    font-family: "Open Sans";
+    src: url(https://netology-code.github.io/html-2-diploma/sources/fonts/OpenSans-Regular.woff);
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url(https://netology-code.github.io/html-2-diploma/sources/fonts/OpenSans-Bold.woff);
+    font-weight: 700;
+    font-style: normal;
+}
+
+body {
+    font-family: "Open Sans", Arial, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 1.46;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.header {
+  position: relative;
+  padding-top: 26px;
+  color: #fff;
+  padding-bottom: 90px;
+  background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/banner-bg.jpg);
+ background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+
+.header::before {
+    content: '';
+    display: block;
+    opacity: 0.6;
+    background-color: #000000;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.header_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu_list {
+    margin: 0;
+    display: flex;
+    list-style-type: none;
+    font-size: 13px;
+    text-transform: uppercase;
+    padding: 0;
+}
+
+.menu_item:nth-child(n+2) {
+    margin-left: 35px;
+}
+
+.menu_link {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.menu_link:hover {
+    text-decoration: underline;
+}
+
+.header_container_tittle {
+    text-align: center;
+    margin-top: 99px;
+    display: block;
+    width: 690px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header_title {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 75px;
+    margin: 0;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.header_title:last-child {
+    margin-bottom: 35px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #ffffff;
+    margin-top: 64px;
+    margin-bottom: 49px;
+}
+.trend {
+    position: relative;
+    padding-top: 59px;
+}
+.container_big {
+    width: 100%;
+}
+.trend_items {
+    display: flex;
+}
+
+.trend_item {
+ 
+    position: relative;
+    flex: 0 1 25%;
+    margin-right: 4px;
+    padding: 0 20px 15px 20px;
+    min-height: 320px;
+}
+
+.trend_item:before {
+    content: '';
+    display: block;
+    opacity: 0.6;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.trend_item:last-child {
+    margin-right: 0px;
+}
+
+.trend_item_1 {
+    background: url(https://lahmat.github.io/img/trend/trend1.jpg) center center/ cover no-repeat;
+}
+
+.trend_item_2 {
+    background: url(https://lahmat.github.io/img/trend/trend2.jpg) center center/ cover no-repeat;
+}
+
+.trend_item_3 {
+    background: url(https://lahmat.github.io/img/trend/trend3.jpg) center center/ cover no-repeat;
+}
+
+.trend_item_4 {
+    background: url(https://lahmat.github.io/img/trend/trend4.jpg) center center/ cover no-repeat;
+}
+
+.trend_wrapper {
+    position: relative;
+    border: 3px solid rgba(181, 159, 91, 0.6);
+    z-index: 1;
+    align-self: flex-end;
+    padding: 33px;
+    width: 100%;
+}
+
+.trend_content {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin: 10px 0 0 0;
+}
+
+.article_list {
+    width: 780px;
+}
+
+.article:first-child {
+    margin-top: 0px;
+}
+.article {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 60.5px;
+}
+
+.article_img {
+    width: 381px;
+    margin-right: 31px;
+}
+
+.tag_list {
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+
+.tag_item {
+    margin-right:20px;
+    font-weight: 700;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 14px;
+}
+
+.tag_item:last-child {
+    margin-right: 0px;
+}
+
+.tag_link {
+    text-decoration: none;
+    color: #b59f5b;
+}
+
+.tag_link:hover {
+    text-decoration: underline;
+}
+
+.article_title {
+    margin-top: 9.5px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    margin-bottom: 32px;
+}
+
+.article_title_white {
+    margin: 10px 0 0 0;
+}
+
+.article_title_link {
+    color: #0f0d0e;
+    text-decoration: none;
+}
+
+.article_title_link_white {
+    color: #ffffff;
+}
+
+.article_title_link:hover {
+    color: #b59f5b;
+}
+
+.article_author_wrapper {
+    font-size: 12px;
+    line-height: 12px;
+}
+
+.article_datetime {
+    color: #888888;
+    margin-right: 5px;
+    display: inline-block;
+}
+
+.article_author {
+    font-weight: 700;
+    color: #000000;
+    display: inline-block;
+    font-style: normal;
+}
+
+
+.article_content {
+    margin-top: 46px;
+    font-size: 15px;
+    line-height: 22px;
+    color: #0f0d0e;
+}
+
+.article_content p:last-child {
+    margin: 0;
+}
+
+.article_content p {
+    margin: 0 0 10px 0;
+}
+
+
+.sidebar_block:nth-child(n+2) {
+    margin-top: 59px;
+}
+   
+.sidebar {
+    width: 270px;
+}
+
+.subtitle {
+  font-weight: bold;
+    font-weight: 700px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: #0f0d0e;
+    position: relative;
+    margin: 0;
+    margin-bottom: 27px;
+}
+
+.subtitle_big {
+    font-size: 20px;
+}
+
+.subtitle::after {
+    content: '';
+    display: block;
+    width: 66px;
+    height: 3px;
+    opacity: 0.4;
+    background-color: #b59f5b;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+.news_list {
+    list-style-type: none;
+}
+
+.news_item {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 23px;
+}
+
+.news_item:first-child {
+    margin-top: 0px;
+}
+
+.news_item_img {
+    width: 70px;
+    background-color: #f4f7f6;
+    margin-right: 20px;
+}
+
+.news_item_datetime {
+    display: block;
+    font-size: 12px;
+    line-height: 13px;
+    color: #888888;
+}
+
+.news_item_title {
+    margin-top: 5px;
+    line-height: 17px;
+    font-weight: 900;
+    font-size: 13px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.news_item_link {
+    color: #000000;
+    text-decoration: none;
+}
+
+.news_item_link:hover {
+    color: #b59f5b;
+}
+
+.visually_hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    clip: rect(1px, 1px, 1px, 1px);
+}
+
+.search {
+    display: flex;
+}
+
+.input_field {
+    border: 0;
+    background-color: #f4f7f6;
+    font-size: 13px;
+    color: #888888;
+    height: 48px;
+    font-family: inherit;
+    padding: 18px;
+    width: 100%;
+}
+
+.search_wrapper {
+    display: -webkit-flex;
+    display: flex;
+    width: 100%;
+}
+
+.button {
+    background-color: #b59f5b;
+    border: 0;
+    height: 48px;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #ffffff;
+    width: 100%;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+
+.button_small {
+    width: 141px;
+}
+
+.button:hover {
+    background-color: #323232;
+}
+
+.search_button {
+    width: 48px;
+    background: #b59f5b url(../icons/search.svg) center center/ 18px no-repeat;
+}
+
+.search_field:focus {
+    outline: none;
+    border: 1px solid #b59f5b;
+    border-right: 0;
+    padding-left: 17px;
+}
+
+.form_row:nth-child(n+2) {
+    margin-top: 17px;
+}
+
+.newsletter_form {
+    display: flex;
+    flex-direction: column;
+}
+
+.newsletter_form_field:focus {
+    outline: none;
+    border-bottom: 1px;
+    border-style: solid;
+    border-color: #b59f5b;
+    padding-bottom: 17px;
+}
+
+.wrapper_meta {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.meta_item:last-child {
+    margin-right: 0;
+}
+
+.meta_item {
+    margin-right: 6px;
+    margin-bottom: 3px;
+}
+
+.meta_item_link {
+    display: block;
+    padding: 7px 13px;
+    border: 3px solid #eeeeee;
+    font-weight: 600;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #0f0d0e;
+    text-decoration: none;
+    line-height: 11px;
+}
+
+.meta_item_link:hover {
+    border-color: #b59f5b;
+}
+
+.topics_list {
+  
+    padding: 0;
+    margin: 0;
+}
+
+.topics_item {
+    list-style-type: none;
+    margin-top: 8px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.topics_item:first-child {
+    margin-top: 0px;
+}
+
+.topics_item_link {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 14px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.topics_item_link:hover {
+    color: #b59f5b;
+}
+
+.topics_number {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 13px;
+    color: #b59f5b;
+    text-decoration: none;
+    vertical-align: super;
+}
+.shop {
+    padding: 0 0 64px 0;
+}
+
+.shop_items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.shop_item {
+    flex: 0 1 29%;
+    display: flex;
+    flex-direction: column;
+}
+
+.shop_title {
+    margin: 0 0 8px 0;
+}
+
+.shop_img {
+    margin: 0 auto;
+    width: 87%;
+    display: block;
+}
+
+.shop_item:last-child {
+    margin-right: 0;
+}
+
+.shop_wrapper {
+    position: relative;
+    z-index: 1;
+    margin-top: -30px;
+    border: 3px solid rgba(181, 159, 91, 0.6);
+    padding: 57px 23px 23px 23px;
+    flex: 1;
+}
+
+.shop_content {
+    font-size: 15px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #0f0d0e;
+}
+
+.shop_content_link {
+    text-decoration: none;
+    color: #b59f5b;
+}
+
+.shop_content_link:hover {
+    text-decoration: underline;
+}
+
+.shop_price_wrapper {
+    margin-top: 23px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.shop_value {
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #0f0d0e;
+    line-height: 1;
+}
+
+.shop_sale {
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: line-through;
+    text-transform: uppercase;
+    color: #0f0d0e;
+    line-height: 1;
+}
+.footer {
+    margin-bottom: 40px;
+}
+.socials {
+    padding: 31px;
+    background-color: #f4f7f6;
+}
+
+.socials_list {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+.socials_item:nth-child(n+2) {
+    margin-left: 23px;
+}
+
+.socials_link {
+    width: 25px;
+    height: 25px;
+    display: block;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+.socials_link_twitter {
+    background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/social/004-twitter.svg);
+}
+
+.socials_link_pinterest {
+    background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/social/001-pinterest.svg);
+}
+
+.socials_link_facebook {
+    background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/social/002-facebook-logo.svg);
+}
+
+.socials_link_instagram {
+    background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/social/005-instagram.svg);
+}
+
+.socials_link_tumblr {
+    background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/social/003-tumblr.svg);
+}
+.copyright_wrapper {
+    margin-top: 49px;
+    text-align: center;
+}
+
+.copyright {
+    font-weight: 700;
+    font-size: 12px;
+    color: #999999;
+    text-decoration: none;
+}
