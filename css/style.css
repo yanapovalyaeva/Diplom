@@ -678,7 +678,7 @@ body {
 
 @media (min-width: 1200px) {
     .header {
-        background: #000 url(../img/bg/banner-bg.jpg) center center/ cover no-repeat;
+        background: url(https://netology-code.github.io/html-2-diploma/sources/images/banner-bg.jpg) center center/ cover no-repeat;
         min-width: 1200px;
     }
     .hamburger {
@@ -767,7 +767,7 @@ body {
         margin-top: 50px;
     }
     .header {
-        background: #000 url(../img/bg/banner-bg-tablet.jpg) center center/ cover no-repeat;
+        background: url(https://netology-code.github.io/html-2-diploma/sources/images/banner-bg-tablet.jpg) center center/ cover no-repeat;
         padding: 43px 0 124px 0;
         min-width: 641px;
     }
@@ -834,7 +834,7 @@ body {
         margin-top: 43px;
     }
     .header {
-        background: #000 url(../img/bg/banner-mobile.jpg) center center/ cover no-repeat;
+        background: url(https://netology-code.github.io/html-2-diploma/sources/images/banner-mobile.jpg) center center/ cover no-repeat;
         padding: 225px 0 219px 0;
         width: 100%;
     }
