@@ -1,13 +1,13 @@
 @font-face {
     font-family: "Open Sans";
-    src: url(https://netology-code.github.io/html-2-diploma/sources/fonts/OpenSans-Regular.woff);
+    src: url(https://raw.githubusercontent.com/yanapovalyaeva/Diplom/main/font size/OpenSans-Regular.woff)
     font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
     font-family: "Open Sans";
-    src: url(https://netology-code.github.io/html-2-diploma/sources/fonts/OpenSans-Bold.woff);
+    src: url(https://raw.githubusercontent.com/yanapovalyaeva/Diplom/main/font size/OpenSans-Bold.woff);
     font-weight: 700;
     font-style: normal;
 }
@@ -38,7 +38,7 @@ body {
   padding-top: 26px;
   color: #fff;
   padding-bottom: 90px;
-  background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/banner-bg.jpg);
+  background-image: url(https://raw.githubusercontent.com/yanapovalyaeva/Diplom/main/images/banner-bg.jpg);
  background-repeat: no-repeat;
     background-size: cover; 
 }
@@ -149,19 +149,19 @@ body {
 }
 
 .trend_item_1 {
-    background: url(../img/trend/trend1.jpg) center center/ cover no-repeat;
+    background: url(https://raw.githubusercontent.com/yanapovalyaeva/Diplom/main/images/trend1.jpg) center center/ cover no-repeat;
 }
 
 .trend_item_2 {
-    background: url(../img/trend/trend2.jpg) center center/ cover no-repeat;
+    background: url(https://raw.githubusercontent.com/yanapovalyaeva/Diplom/main/images/trend2.jpg) center center/ cover no-repeat;
 }
 
 .trend_item_3 {
-    background: url(../img/trend/trend3.jpg) center center/ cover no-repeat;
+    background: url(https://raw.githubusercontent.com/yanapovalyaeva/Diplom/main/images/trend3.jpg) center center/ cover no-repeat;
 }
 
 .trend_item_4 {
-    background: url(../img/trend/trend4.jpg) center center/ cover no-repeat;
+    background: url(https://raw.githubusercontent.com/yanapovalyaeva/Diplom/main/images/trend4.jpg) center center/ cover no-repeat;
 }
 
 .trend_wrapper {
@@ -183,19 +183,19 @@ body {
 }
 
 .trend_item_1 {
-    background: url(https://lahmat.github.io/img/trend/trend1.jpg) center center/ cover no-repeat;
+    background: url(https://raw.githubusercontent.com/yanapovalyaeva/Diplom/main/images/trend1.jpg) center center/ cover no-repeat;
 }
 
 .trend_item_2 {
-    background: url(https://lahmat.github.io/img/trend/trend2.jpg) center center/ cover no-repeat;
+    background: url(https://raw.githubusercontent.com/yanapovalyaeva/Diplom/main/images/trend2.jpg) center center/ cover no-repeat;
 }
 
 .trend_item_3 {
-    background: url(https://lahmat.github.io/img/trend/trend3.jpg) center center/ cover no-repeat;
+    background: url(https://raw.githubusercontent.com/yanapovalyaeva/Diplom/main/images/trend3.jpg) center center/ cover no-repeat;
 }
 
 .trend_item_4 {
-    background: url(https://lahmat.github.io/img/trend/trend4.jpg) center center/ cover no-repeat;
+    background: url(https://raw.githubusercontent.com/yanapovalyaeva/Diplom/main/images/trend4.jpg) center center/ cover no-repeat;
 }
 
 
@@ -442,7 +442,7 @@ body {
 
 .search_button {
     width: 48px;
-    background: #b59f5b url(../icons/search.svg) center center/ 18px no-repeat;
+    background: #b59f5b url(https://raw.githubusercontent.com/yanapovalyaeva/Diplom/4071b1b3795d6b05044fbcb0fb3bd40b08fc608b/svg/search.svg) center center/ 18px no-repeat;
 }
 
 .search_field:focus {
@@ -646,23 +646,23 @@ body {
 
 
 .socials_link_twitter {
-    background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/social/004-twitter.svg);
+    background-image: url(https://raw.githubusercontent.com/yanapovalyaeva/Diplom/4071b1b3795d6b05044fbcb0fb3bd40b08fc608b/svg/004-twitter.svg);
 }
 
 .socials_link_pinterest {
-    background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/social/001-pinterest.svg);
+    background-image: url(https://raw.githubusercontent.com/yanapovalyaeva/Diplom/4071b1b3795d6b05044fbcb0fb3bd40b08fc608b/svg/001-pinterest.svg);
 }
 
 .socials_link_facebook {
-    background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/social/002-facebook-logo.svg);
+    background-image: url(https://raw.githubusercontent.com/yanapovalyaeva/Diplom/4071b1b3795d6b05044fbcb0fb3bd40b08fc608b/svg/002-facebook-logo.svg);
 }
 
 .socials_link_instagram {
-    background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/social/005-instagram.svg);
+    background-image: url(https://raw.githubusercontent.com/yanapovalyaeva/Diplom/4071b1b3795d6b05044fbcb0fb3bd40b08fc608b/svg/005-instagram.svg);
 }
 
 .socials_link_tumblr {
-    background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/social/003-tumblr.svg);
+    background-image: url(https://raw.githubusercontent.com/yanapovalyaeva/Diplom/4071b1b3795d6b05044fbcb0fb3bd40b08fc608b/svg/003-tumblr.svg);
 }
 .copyright_wrapper {
     margin-top: 49px;
