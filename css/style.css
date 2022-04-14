@@ -692,7 +692,7 @@ body {
     }
 }
 
-@media (min-width: 641px) and (max-width:1200px) {
+@media (min-width: 641px) and (max-width:1199px) {
   
      .header {
         background-image: url(https://raw.githubusercontent.com/yanapovalyaeva/Diplom/main/images/banner-bg-tablet.jpg);
