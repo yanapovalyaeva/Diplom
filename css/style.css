@@ -694,7 +694,7 @@ body {
 
 @media (min-width: 1200px) {
     .header {
-        background-image: url(https://raw.githubusercontent.com/netology-code/mq-diploma/master/sources/img/banner-bg.jpg);
+        background-image: url(https://raw.githubusercontent.com/yanapovalyaeva/Diplom/main/images/banner-bg.jpg);
  background-repeat: no-repeat;
     background-size: cover; 
       background-size: cover;
@@ -796,7 +796,7 @@ body {
         margin-top: 50px;
     }
     .header {
-        background-image: url(https://raw.githubusercontent.com/netology-code/mq-diploma/master/sources/img/banner-bg-tablet.jpg);
+        background-image: url(https://raw.githubusercontent.com/yanapovalyaeva/Diplom/main/images/banner-bg-tablet.jpg);
 background-repeat: no-repeat;
     background-size: cover; 
          background-position: center center;
@@ -867,7 +867,7 @@ background-repeat: no-repeat;
         margin-top: 43px;
     }
     .header {
-        background-image: url(https://raw.githubusercontent.com/netology-code/mq-diploma/1ad0703d75efaafe9fb70e8a32f7ecf69bfb40f4/sources/img/banner-mobile.jpg);
+        background-image: url(https://raw.githubusercontent.com/yanapovalyaeva/Diplom/main/images/banner-bg-mobile.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
