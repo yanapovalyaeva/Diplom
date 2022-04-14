@@ -677,21 +677,6 @@ body {
 }
 
 
-@media (max-width:1200px) {
-    .tag_list {
-        margin-top: 15px;
-    }
-    .article {
-        border-bottom: 4px solid #eeeeee;
-        padding-bottom: 20px;
-        flex-direction: column;
-    }
-    .article_img {
-        margin-right: 0;
-        width: 100%;
-    }
-}
-
 @media (min-width: 1200px) {
     .header {
         background-image: url(https://raw.githubusercontent.com/yanapovalyaeva/Diplom/main/images/banner-bg.jpg);
@@ -707,31 +692,131 @@ body {
     }
 }
 
-@media (min-width: 768px) and (max-width:1200px) {
-    .container {
+@media (min-width: 641px) and (max-width:1200px) {
+  
+     .header {
+        background-image: url(https://raw.githubusercontent.com/yanapovalyaeva/Diplom/main/images/banner-bg-tablet.jpg);
+background-repeat: no-repeat;
+    background-size: cover; 
+         background-position: center center;
+        padding: 43px 0 124px 0;
+        min-width: 641px;
+      height: 100%;
+    }
+     .header_container_tittle {
+       width: 620px; 
+    }
+    .header_title {
+        font-size: 40px;
+        line-height: 55px;
+    }
+    .trend_items {
+        flex-wrap: wrap;
+    }
+    .trend_item {
+        flex: 0 1 49.8%;
+        padding: 0 20px 15px 20px;
+        margin-right: 0;
+        min-height: 274px;
+    }
+    .trend_item:nth-child(odd) {
+        margin-right: 0.4%;
+    }
+    .trend_item:nth-child(n+3) {
+        margin-top: 0.4%;
+    }
+     .container {
         padding-left: 35px;
         padding-right: 35px;
-        width: 100%;
-      
+        width: 100%;  
     }
-    .header_container_tittle {
-        width: 620px;
+   
+    .tag_list {
+        margin-top: 15px;
     }
-  .main {
+     .main {
     width:100%;
   }
+    .article {
+        border-bottom: 4px solid #eeeeee;
+        padding-bottom: 20px;
+        flex-direction: column;
+            margin-top: 41px;
+    }
+    .article_img {
+        margin-right: 0;
+        width: 100%;
+    }
+   
+    .article_content {
+        margin-top: 33px;
+    }
+    .article:last-child {
+        border: none;
+        padding-bottom: 0;
+    }
+    .article_list {
+        width: 56%;
+    }
+  
   .aside {
     width: 270px;
     margin-left:35px;
   }
+ 
+    .wrapper {
+        margin-top: 50px;
+    }
+  
+    .shop_items {
+        flex-wrap: wrap;
+    }
+    .shop_item {
+        flex: 0 1 48.5%
+    }
+    .shop_item:nth-child(n+3) {
+        margin-top: 28px;
+    }
+    .sidebar {
+        width: 39%;
+    }
 }
 
-@media (max-width: 768px) {
-    .container {
+@media (max-width: 640px) {
+    
+     .container {
         width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
     }
     .header_container_tittle {
         width: 580px;
+    }
+    .header_wrapper {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .logo {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .wrapper {
+        margin-top: 43px;
+    }
+    .header {
+        background-image: url(https://raw.githubusercontent.com/yanapovalyaeva/Diplom/main/images/banner-mobile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+        padding: 225px 0 219px 0;
+        width: 100%;
+    }
+    .header_container_tittle {
+        width: 280px;
+    }
+    .header_title {
+        font-size: 26px;
+        line-height: 36px;
     }
     .hamburger {
         display: block;
@@ -784,102 +869,6 @@ body {
     }
     .menu_item:nth-child(n+2) {
         margin-left: 0;
-    }
-}
-
-@media (min-width: 641px) and (max-width:1200px) {
-    .container {
-        padding-left: 35px;
-        padding-right: 35px;
-    }
-    .wrapper {
-        margin-top: 50px;
-    }
-    .header {
-        background-image: url(https://raw.githubusercontent.com/yanapovalyaeva/Diplom/main/images/banner-bg-tablet.jpg);
-background-repeat: no-repeat;
-    background-size: cover; 
-         background-position: center center;
-        padding: 43px 0 124px 0;
-        min-width: 641px;
-      height: 100%;
-    }
-    .header_title {
-        font-size: 40px;
-        line-height: 55px;
-    }
-    .article {
-        margin-top: 41px;
-    }
-    .article_content {
-        margin-top: 33px;
-    }
-    .article:last-child {
-        border: none;
-        padding-bottom: 0;
-    }
-    .article_list {
-        width: 56%;
-    }
-    .trend_items {
-        flex-wrap: wrap;
-    }
-    .trend_item {
-        flex: 0 1 49.8%;
-        padding: 0 20px 15px 20px;
-        margin-right: 0;
-        min-height: 274px;
-    }
-    .trend_item:nth-child(odd) {
-        margin-right: 0.4%;
-    }
-    .trend_item:nth-child(n+3) {
-        margin-top: 0.4%;
-    }
-    .shop_items {
-        flex-wrap: wrap;
-    }
-    .shop_item {
-        flex: 0 1 48.5%
-    }
-    .shop_item:nth-child(n+3) {
-        margin-top: 28px;
-    }
-    .sidebar {
-        width: 39%;
-    }
-}
-
-@media (max-width: 641px) {
-    .container {
-        padding-left: 15px;
-        padding-right: 15px;
-    }
-    .header_wrapper {
-        width: 80%;
-        margin: 0 auto;
-    }
-    .logo {
-        width: 100%;
-        margin: 0 auto;
-    }
-    .wrapper {
-        margin-top: 43px;
-    }
-    .header {
-        background-image: url(https://raw.githubusercontent.com/yanapovalyaeva/Diplom/main/images/banner-mobile.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-        padding: 225px 0 219px 0;
-        width: 100%;
-    }
-    .header_container_tittle {
-        width: 280px;
-    }
-    .header_title {
-        font-size: 26px;
-        line-height: 36px;
     }
     .trent {
         padding-top: 40px;
