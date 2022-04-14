@@ -725,7 +725,8 @@ body {
     }
      .container {
         padding-left: 35px;
-        padding-right: 35px; 
+        padding-right: 35px;
+         width:100%;
     }
    
     .tag_list {
