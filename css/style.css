@@ -691,7 +691,7 @@ body {
     }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1201px) {
     .header {
         background: url(https://raw.githubusercontent.com/yanapovalyaeva/Diplom/main/images/banner-bg.jpg) center center/ cover no-repeat;
         min-width: 1200px;
@@ -840,7 +840,7 @@ body {
     }
 }
 
-@media (max-width: 641px) {
+@media (max-width: 640px) {
     .container {
         padding-left: 15px;
         padding-right: 15px;
