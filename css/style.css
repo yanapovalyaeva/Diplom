@@ -840,11 +840,11 @@ body {
     }
 }
 
-@media (max-width: 640px) {
+@media (max-width: 641px) {
     .container {
         padding-left: 15px;
         padding-right: 15px;
-        width: 100%;
+              width: 100%;
     }
     .header_wrapper {
         width: 80%;
@@ -858,7 +858,7 @@ body {
         margin-top: 43px;
     }
     .header {
-        background: url(https://raw.githubusercontent.com/yanapovalyaeva/Diplom/main/images/banner-mobile.jpg) center center/ cover no-repeat;
+        background: #000 url(../img/bg/banner-mobile.jpg) center center/ cover no-repeat;
         padding: 225px 0 219px 0;
         width: 100%;
     }
@@ -869,7 +869,7 @@ body {
         font-size: 26px;
         line-height: 36px;
     }
-    .trent {
+    .trend {
         padding-top: 40px;
     }
     .trend_items {
@@ -907,17 +907,41 @@ body {
     }
     .shop_items {
         display: block;
+        max-width: 331px;
         margin: 0 auto;
-         width: 100%;
     }
     .shop_item:nth-child(n+1) {
         margin-top: 23px;
     }
     .search_button {
-        padding: 0 24px;
+        padding: 0;
     }
     .search label {
         width: 100%;
+    }
+}
+
+@media (max-width: 641px) and (orientation:landscape) {
+        
+    .container {
+        width: 100%;
+    }
+  
+  .trend_items {
+          display: flex;
+        flex-wrap: wrap;
+    }
+  
+   .trend_item {
+        flex: 0 1 49.8%;
+        padding: 0 20px 15px 20px;
+        margin-right: 0;
+    }
+    .trend_item:nth-child(odd) {
+        margin-right: 0.4%;
+    }
+    .trend_item:nth-child(n+3) {
+        margin-top: 0.4%;
     }
 }
   .popup_hidden {
