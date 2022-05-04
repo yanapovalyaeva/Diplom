@@ -858,7 +858,7 @@ body {
         margin-top: 43px;
     }
     .header {
-        background: #000 url(https://github.com/yanapovalyaeva/Diplom/main/images/banner-mobile.jpg) center center/ cover no-repeat;
+        background: #000 url(https:/raw.githubusercontent.com/yanapovalyaeva/Diplom/main/images/banner-mobile.jpg) center center/ cover no-repeat;
         padding: 225px 0 219px 0;
         width: 100%;
     }
@@ -1044,12 +1044,12 @@ body {
 	position: absolute;
   left: 0;
 	top: 5px;
-	background: url(https://github.com/yanapovalyaeva/Diplom/blob/main/svg/form-empty-circle.svg) 0 0 no-repeat;
+	background: url(https://raw.githubusercontent.com/yanapovalyaeva/Diplom/blob/main/svg/form-empty-circle.svg) 0 0 no-repeat;
    background-size: 19.8px;
 }
  
 .form_radio input[type=radio]:checked + label:before {
-	background: url(https://github.com/yanapovalyaeva/Diplom/blob/main/svg/form-circle.svg) 0 0 no-repeat;
+	background: url(https://raw.githubusercontent.com/yanapovalyaeva/Diplom/blob/main/svg/form-circle.svg) 0 0 no-repeat;
   background-size: 19.8px;
 }
  .sign-up__field_text {
@@ -1153,7 +1153,7 @@ body {
   font-family: Arial,sans-serif;
   color: #808080;
   -webkit-appearance: none;
-  background-image: url("https://github.com/yanapovalyaeva/Diplom/blob/main/svg/form-arrows.svg");
+  background-image: url("https:/raw.githubusercontent.com/yanapovalyaeva/Diplom/blob/main/svg/form-arrows.svg");
    background-size:3.5%;
   background-repeat: no-repeat;
   background-position:  right 5px center;
