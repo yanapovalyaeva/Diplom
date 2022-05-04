@@ -6,8 +6,57 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Diplom</title>
   <link rel="stylesheet" href="css/style.css">
-</head>
+  </head>
 <body>
+  
+<div class="popup_hidden">
+<div class="popup">
+  <div class="popup__container">
+    <div class="sign-up">
+      <header class="sign-up__header">
+        <h3 class="sign-up__title">Ваш фидбек</h3> 
+      </header>
+      <div class="sign-up__content">
+        <form class="sign-up__form">
+          <div class="sign-up__row">
+            <div class="sign-up__column">
+              <label class="sign-up__label">Как часто вы заходите на сайт?</label>
+              <select class="select">
+          <option value="select_otvet" selected >Почти каждый день</option>
+              </select>
+         
+            </div>
+            <div class="sign-up__row">
+            <div class="sign-up__column">
+              <label class="sign-up__label">Вы подписаны на e-mal рассылку?</label> 
+            
+       <div class="form_radio">
+	<input id="radio-1" type="radio" name="radio" value="1" checked>
+	<label for="radio-1">Да</label>
+	<input id="radio-2" type="radio" name="radio" value="2">
+	<label for="radio-2">Нет</label>
+</div>
+              </div>
+            </div>            
+          <div class="sign-up__row">
+            <div class="sign-up__column">
+              <label class="sign-up__label">Расскажите, какой контент вы хотели бы видеть на нашем сайте?</label>
+              <input id="text" class="sign-up__field sign-up__field_text" type="text" placeholder="Может, больше рецетов" name="text" required> 
+            </div>
+          </div>  
+          <div class="sign-up__row">
+            <button class="sign-up__button"><span class="sign-up__button-label">Отправить</span></button>
+          </div>
+        </form>
+      </div>
+    </div>
+       <button class="button_close">
+            <img src="https://github.com/yanapovalyaeva/Diplom/blob/main/svg/form-x.svg" alt="Закрыть окно"> </button>   
+</div>
+  </div>
+  </div>
+</div>
+  
   <header class="header">
         <div class="container">
             <div class="header_wrapper">
