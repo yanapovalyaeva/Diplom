@@ -840,7 +840,7 @@ body {
     }
 }
 
-@media (max-width: 641px) {
+@media (max-width: 640px) {
     .container {
         padding-left: 15px;
         padding-right: 15px;
@@ -858,7 +858,7 @@ body {
         margin-top: 43px;
     }
     .header {
-        background: #000 url(../img/bg/banner-mobile.jpg) center center/ cover no-repeat;
+        background: #000 url(https://github.com/yanapovalyaeva/Diplom/blob/main/images/banner-mobile.jpg) center center/ cover no-repeat;
         padding: 225px 0 219px 0;
         width: 100%;
     }
@@ -921,7 +921,7 @@ body {
     }
 }
 
-@media (max-width: 641px) and (orientation:landscape) {
+@media (max-width: 640px) and (orientation: landscape) {
         
     .container {
         width: 100%;
