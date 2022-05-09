@@ -692,7 +692,7 @@ width: 100%;
     }
 }
 
-@media (min-width: 1201px) {
+@media (min-width: 1200px) {
     .header {
         background: url(https://raw.githubusercontent.com/yanapovalyaeva/Diplom/main/images/banner-bg.jpg) center center/ cover no-repeat;
         min-width: 1200px;
@@ -709,13 +709,13 @@ width: 100%;
         width: 100%;
     }
     .header_container_tittle {
-        width: 620px;
+        max-width: 100%;
     }
    .main {
     width:100%;
   }
   .aside {
-    width: 270px;
+    max-width: 100%;
     margin-left:35px;
   }
 }
