@@ -932,9 +932,6 @@ body {
     .search_button {
         padding: 0;
     }
-    .search label {
-        width: 100%;
-    }
 }
 
 @media (max-width: 640px) and (orientation: landscape) {
