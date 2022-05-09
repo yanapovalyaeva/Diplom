@@ -11,9 +11,7 @@
     font-weight: 700;
     font-style: normal;
 }
-html,body{
-overflow-x: hidden;
-}
+
 body {
     font-family: "Open Sans", Arial, sans-serif;
     font-weight: 400;
@@ -882,7 +880,7 @@ width: 100%;
         width: 100%;
     }
     .header_container_tittle {
-        width: 280px;
+        max-width: 100%;
     }
     .header_title {
         font-size: 26px;
@@ -926,7 +924,7 @@ width: 100%;
     }
     .shop_items {
         display: block;
-        max-width: 331px;
+        max-width: 100%;
         margin: 0 auto;
     }
     .shop_item:nth-child(n+1) {
