@@ -121,6 +121,7 @@ body {
 
 .trend_items {
     display: flex;
+width: 100%;
 }
 
 .trend_item {
