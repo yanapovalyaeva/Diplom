@@ -937,6 +937,10 @@ width: 100%;
     .search_button {
         padding: 0;
     }
+	
+	.search_wrapper {
+max-width: 290px;
+}
 }
 
 @media (max-width: 640px) and (orientation: landscape) {
