@@ -418,7 +418,7 @@ width: 100%;
     display: flex;
     width: 100%;
 }
-search sidebar_block {
+.search sidebar_block {
 width: 100%;
 	}
 .button {
@@ -929,7 +929,7 @@ width: 100%;
         margin-top: 44px;
 	overflow: hidden;
     }
-	search sidebar_block {
+	.search sidebar_block {
 		width: 100%;
 	}
     .shop_items {
@@ -971,7 +971,7 @@ max-width: 270px;
     .trend_item:nth-child(n+3) {
         margin-top: 0.4%;
     }
-	search sidebar_block {
+	.search sidebar_block {
 		width: 100%;
 	}
 }
