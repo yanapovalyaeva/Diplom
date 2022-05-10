@@ -418,7 +418,9 @@ width: 100%;
     display: flex;
     width: 100%;
 }
-
+search sidebar_block {
+width: 100%;
+	}
 .button {
     background-color: #b59f5b;
     border: 0;
@@ -927,6 +929,9 @@ width: 100%;
         margin-top: 44px;
 	overflow: hidden;
     }
+	search sidebar_block {
+		width: 100%;
+	}
     .shop_items {
         display: block;
         max-width: 100%;
@@ -940,7 +945,7 @@ width: 100%;
     }
 	
 	.search_wrapper {
-max-width: 290px;
+max-width: 270px;
 }
 }
 
@@ -966,6 +971,9 @@ max-width: 290px;
     .trend_item:nth-child(n+3) {
         margin-top: 0.4%;
     }
+	search sidebar_block {
+		width: 100%;
+	}
 }
   .popup_hidden {
   visibility:hidden;
@@ -1111,6 +1119,10 @@ max-width: 290px;
  
 }
 @media (max-width: 480px) {
+	
+	search sidebar_block {
+		width: 100%;
+	}
 
   .sign-up__header {
     font-size: 13px;
